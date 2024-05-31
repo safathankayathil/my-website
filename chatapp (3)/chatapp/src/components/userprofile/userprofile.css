@@ -1,0 +1,237 @@
+section.details {
+    width: 25%;
+    background-color: #161b1c;
+  }
+  section.border{
+    border-bottom: 1px solid #252c2e;
+  }
+  section.details div.top {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    
+   
+  }
+  h2{
+    color: #fff;
+  }
+  h1.close {
+    width: 20px;
+    height: 20px;
+    background-color: #161b1c;
+    border: 1px solid #252c2e;
+    border-radius: 35px;
+    padding: 15px;
+    margin-top: 52px;
+    margin-right: 25px;
+
+  }
+  h1.close:hover{
+    background-color: #48a5c4;
+  }
+  h1.close img {
+    width: 100%;
+    display: block;
+  }
+  div.pic h6{
+    margin-top: 25px;
+  }
+  div.file h6{
+    margin-top: 25px;
+  }
+  section.details .content div.profile {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+  section.details .content div.profile div.image {
+    width: 80px;
+    background-color: #6d84b6;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  section.details .content div.profile div.image img {
+    width: 100%;
+    display: block;
+  }
+  div.a {
+    width: 90%;
+    margin: 0 auto;
+  }
+  div.a div.media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  div.a div.media div {
+    display: flex;
+    align-items: center;
+  }
+  div.a div.media div h6 {
+    margin-left: 10px;
+  }
+  div.a div.media a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #4499b4;
+  }
+  div.pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  div.pictures div {
+    width: 46%;
+    height: 90px;
+    margin-top: 15px;
+  }
+  div.pictures div img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  div.pictures div a {
+    width: 100%;
+    display: block;
+  }
+  div.pictures div.background {
+    background-color: #252c2e;
+    border-radius: 10px;
+  }
+  div.pictures h1 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  div.b {
+    width: 90%;
+    margin: 0 auto;
+  }
+  div.b div.file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  div.b div.file div {
+    display: flex;
+    align-items: center;
+  }
+  div.b div.file div h6 {
+    margin-left: 10px;
+  }
+  div.file a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #4499b4;
+  }
+  div.docs {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  div.doc {
+    margin-top: 10px;
+    background-color: #252c2e;
+    border-radius: 10px;
+  }
+  div.doc .top {
+    background-color: #161b1c;
+    display: flex;
+    justify-content: flex-start !important;
+    border-radius: 10px;
+    height: 40px !important;
+    margin-top: 10px !important;
+  }
+  div.doc .top h6 {
+    width: 15px;
+    height: 15px;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  div.doc .top h6 img {
+    width: 100%;
+    display: block;
+  }
+  div.doc .top h4 {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  div.doc .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1px;
+  }
+  div.doc .bottom h6 {
+    font-size: 9px;
+    margin-top: 0;
+  }
+  div.doc .bottom p {
+    font-size: 10px;
+    color: #747474;
+  }
+  div.time {
+    font-size: 10px;
+    color: #747474;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #161b1c;
+  }
+  section.middle {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    overflow-y: scroll;
+  }
+  li.row {
+    width: 90%;
+    margin: 20px auto 0 auto;
+  }
+  li.r {
+    display: flex;
+    justify-content: flex-end;
+  }
+  div.left {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  div.right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+  div.l {
+    padding: 10px;
+    border-radius: 0 13px 13px 13px;
+    background-color: #242c2e;
+    font-size: 15px;
+  }
+  div.r {
+    background-color: #48a5c4;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 13px 0px 13px 13px;
+  }
+  div.document {
+    padding: 0;
+  }
+  div.black {
+    background-color: #0a0e0f;
+  }

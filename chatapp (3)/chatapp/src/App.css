@@ -1,0 +1,252 @@
+
+#root section.app{
+    background-color: #000;
+    margin: 0 auto;
+}
+#root section.app section.wrapper{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+  font-size: 24px;  
+}
+h2{
+    font-size: 20px;  
+  }
+  h3{
+    font-size: 18px;  
+  }
+  h4{
+    font-size: 16px;  
+  }
+  
+    @media (max-width: 768px) {
+      section.nav{
+        width:10%;
+      }
+      .top h1{
+        width: 15px;
+        height:15px;
+      }
+      ul.middle li a img{
+        width:50%;
+      }
+      ul.bottom li:first-child{
+        width:25%;
+        height: 25%;
+        padding: 5px;
+      
+      }
+      ul.bottom li:last-child{
+        width:50%;
+        height: 50%;
+        padding: 3px;
+      }
+      ul.middle li:hover{
+        padding: 1px;
+      }
+     
+      section.chat div.top .left h1 {
+        width: 45px !important;
+        height: 40px;
+      
+      }
+         
+      section.chat div.top .left span h3{
+        font-size: 15px;
+        margin-top: -35px;
+      }
+      h1.dot {
+        width: 25px !important;
+        height: 25px;
+      }
+      h2 {
+        font-size: 13px;
+      }
+      div.doc .top h4 {
+        font-size: 8px;
+      }
+      div.doc .top h6 {
+        margin-left: 0;
+      }
+      div.doc .bottom h6 {
+        font-size: 6px;
+      }
+      div.doc .bottom p {
+        font-size: 8px;
+      }
+      div.a div.media {
+        display: none;
+      }
+      div.pictures {
+        flex-direction: column;
+      }
+      div.pictures div {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: -20px;
+      }
+      section.bottom a.button {
+        margin-left: 10px;
+        margin-right: 5px;
+      }
+      section.bottom h3 {
+        width: 25px;
+        height: 25px;
+      }
+      ul.bottom li:first-child {
+        padding: 8px;
+      }
+      ul.messages li span.prof {
+        width: 40px;
+        height: 40px;
+      }
+      div.search form span {
+        height: 14px;
+      }
+      div.search form {
+        padding: 5px 0px;
+      }
+      section.border {
+        padding: 0;
+      }
+      h1.close {
+        padding: 13px;
+      }
+      section.chat div.top .left {
+        width: 50%;
+      }
+      section.chat div.top {
+        justify-content: flex-start;
+      }
+      section.chats div.top h1.me {
+        width: 100px;
+        height:40px;
+      }
+    
+
+      section.chats div.top span h2{
+       margin-top: 5px;
+       font-size: 10px;
+      }
+      section.chats div.top h1.options {
+        width: 20%;
+        margin-top: 40px;
+      }
+      h6 {
+        font-size: 6px; 
+      }
+     
+      h1.options {
+        width: 30px;
+        height: 15px;
+      }
+  
+    
+      div.search form input {
+        font-size: 9px;
+        padding-left: 8px;
+      }
+      ul.profile li {
+        margin-left: 2px;
+      }
+      ul.profile li a img {
+        width: 84%;
+        display: block;
+        border-radius: 50%;
+      }
+      ul.profile li.one a img{
+        overflow: hidden;
+        background-color: #765bc4;
+        position: relative;
+      }
+      ul.more {
+        font-size: 10px;  
+        margin-left: -20px;
+  
+      }
+      ul.more li {
+     
+        margin-right: 15px;
+        
+      }
+
+   
+    .one span.isOnline {
+      width: 7px;
+      height: 7px;
+      left: 120px;
+      top: 175px;
+    }
+  
+    .two span.isOnline {
+      width: 7px;
+      height: 7px;
+      left: 160px;
+      top: 175px;
+    }
+    .three span.isOnline {
+      width: 7px;
+      height: 7px;
+      left: 195px;
+      top: 175px;
+    }
+    .four span.isOnline {
+      width: 7px;
+      height: 7px;
+      left: 233px;
+      top: 175px;
+    }
+   
+    .five span.isOnline {
+      width: 7px;
+      height: 7px;
+      left: 273px;
+      top: 175px;
+    }
+    .isOnline {
+      width: 7px;
+      height: 7px;
+      bottom: 45px;
+      right: 28px;
+    }
+    
+    .avatar-img {
+      border-radius: 50%;
+      width: 50%;
+      height: 50%;
+      margin-top: 7px;
+    } 
+    .chatlist__items div.userMeta{
+      margin-top: -5px;
+      max-width: 100px;
+      margin-left: -30px;
+    
+    }
+    .chatlist__items div.userMeta h3{
+      font-size: 12px;
+    }
+    .chatlist__items div.userMeta p{
+      margin-top: -7px;
+      font-size: 10px;
+    }
+    .chatlist__items div.userMeta h5{
+      margin-left: 125px;
+      margin-top: -180px;
+      font-size: 10px;
+      
+    }
+    .chatlist__items div.userMeta span img{
+      width: 10%;
+      margin-left: 108px;
+      margin-top: -18px;
+     
+    }
+    }
+    

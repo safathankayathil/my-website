@@ -1,0 +1,28 @@
+section.comingsoon {
+    background: rgb(36, 44, 46);
+    background: linear-gradient(
+      130deg,
+      rgba(36, 44, 46, 1) 0%,
+      rgba(36, 44, 46, 1) 51%,
+      rgba(10, 12, 13, 1) 62%,
+      rgba(36, 44, 46, 1) 100%
+    );
+    opacity: 0.8;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.comingsoon h1 {
+    font-size: 100px;
+    font-weight: bold;
+    background: rgb(36, 44, 47);
+    background: linear-gradient(
+      130deg,
+      rgb(90, 92, 93) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    color: #48a5c4;
+  }
+ 

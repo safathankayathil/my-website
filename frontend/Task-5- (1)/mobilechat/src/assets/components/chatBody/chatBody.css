@@ -1,0 +1,6 @@
+.mainchatbody{
+    flex-grow: 1;
+    background-color: #161b1c;
+    display: flex;
+}
+
